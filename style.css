@@ -35,3 +35,40 @@
        height: 2px;
        margin: 80px auto;
     }
+    .texts{
+        margin-left: 400px;
+        margin-bottom: 100px;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+    }
+    h2{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 1.6rem;
+        margin-bottom: 2px;
+    }
+    h4{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+
+    }
+    h3{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        margin-bottom: 5px;
+    }
+    p{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 40px;
+    }
