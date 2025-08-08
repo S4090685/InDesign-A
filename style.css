@@ -1,19 +1,26 @@
     .header {
-      background-color: rgb(202, 200, 200);
+      background-color: rgb(155, 143, 160);
       padding: 50px 50px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-
     }
+
     .image{
         display: flex;
         justify-items: center;
-        
+        flex-wrap: wrap;
     }
     img{
-        height: 450px;
+        height: auto;
         width: 800px;
+        max-width: 100%;
+        align-items: center;
+    }
+    .imgTitle{
+        height: auto;
+        width: 800px;
+        max-width: 100%;
+        margin-bottom: 30px;
     }
     .headerText {
         font-size: 20px;
@@ -36,10 +43,12 @@
        margin: 80px auto;
     }
     .texts{
-        margin-left: 400px;
+        margin-left: 20%;
+        margin-right: 15%;
         margin-bottom: 100px;
         font-family: "Open Sans", sans-serif;
         font-style: normal;
+        max-width: 900px;
     }
     h2{
         font-family: "Open Sans", sans-serif;
@@ -72,3 +81,18 @@
         font-style: normal;
         margin-bottom: 40px;
     }
+    h5{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    h6{
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    .bottomBlock{
+        background-color: rgb(155, 143, 160); /* Same color as header */
+        padding: 30px 50px;
+        margin-top: auto;
+        height: 170px;
+    }
+    
