@@ -8,21 +8,20 @@
 
     .image{
         display: flex;
+         flex-direction: row;
         justify-items: center;
         flex-wrap: wrap;
     }
 
-    
     img{
         height: auto;
         width: 400px;
-        max-width: 80%;
+        max-width: 100%;
         align-items: center;
         display: flex;
-        flex-direction: row;
+       
         margin-left: 20%;
         margin-right: 20%;
-      
     }
     .imgTitle{
         height: auto;
