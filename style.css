@@ -12,17 +12,16 @@
         flex-wrap: wrap;
     }
    
-   .image-container {
-    display: flex;
-    justify-content: center;        
-    flex-wrap: wrap;
-    gap: 20px;
+   .image-row {
+        display: flex;
+        justify-content: center; 
+        gap: 20px; 
+        flex-wrap: wrap;
     }
 
-    .image-container img {
-        max-width: 100%;
+    .image-row img {
+        width: 300px;
         height: auto;
-        width: 100px;
     }
     .imgTitle{
         height: auto;
