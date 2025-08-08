@@ -15,11 +15,10 @@
 
     img{
         height: auto;
-        width: 400px;
+        width: 500px;
         max-width: 100%;
         align-items: center;
         display: flex;
-       
         margin-left: 20%;
         margin-right: 20%;
     }
