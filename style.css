@@ -11,7 +11,7 @@
         justify-items: center;
         flex-wrap: wrap;
     }
-    img{
+    .container{
         height: auto;
         width: 700px;
         max-width: 100%;
@@ -19,6 +19,15 @@
         margin-left: 10%;
         margin-right: 10%;
     }
+    
+    /* img{
+        height: auto;
+        width: 700px;
+        max-width: 100%;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    } */
     .imgTitle{
         height: auto;
         width: 700px;
