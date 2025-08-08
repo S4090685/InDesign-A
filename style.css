@@ -3,6 +3,7 @@
       padding: 50px 50px;
       display: flex;
       flex-direction: column;
+      
     }
 
     .image{
@@ -12,19 +13,21 @@
     }
     img{
         height: auto;
-        width: 800px;
+        width: 700px;
         max-width: 100%;
         align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .imgTitle{
         height: auto;
-        width: 800px;
+        width: 700px;
         max-width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     .headerText {
-        font-size: 20px;
-        padding: 80px;
+        font-size: 15px;
+        padding: 70px;
         align-self: flex-start;
         margin-left: 120px;
     }
@@ -33,7 +36,7 @@
         font-optical-sizing: auto;
         font-weight: bold;
         font-style: normal;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-variation-settings:
         "wdth" 100;
     }
@@ -55,7 +58,7 @@
         font-optical-sizing: auto;
         font-weight: bold;
         font-style: normal;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         margin-bottom: 2px;
     }
     h4{
@@ -63,8 +66,8 @@
         font-optical-sizing: auto;
         font-weight: bold;
         font-style: normal;
-        font-size: 1.1rem;
-        margin-bottom: 20px;
+        font-size: 1rem;
+        margin-bottom: 17px;
 
     }
     h3{
@@ -83,11 +86,13 @@
     }
     h5{
         text-align: center;
-        font-size: 0.6rem;
+        font-size: 0.3rem;
+        margin-bottom: 10px;
     }
     h6{
         text-align: center;
-        font-size: 0.6rem;
+        font-size: 0.3rem;
+        margin-bottom: 10px;
     }
     .bottomBlock{
         background-color: rgb(155, 143, 160); /* Same color as header */
