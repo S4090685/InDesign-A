@@ -20,13 +20,16 @@
         margin-right: 30%;
     }
      */
-    img{
-        height: auto;
-        width: 700px;
+   .image-container {
+    display: flex;
+    justify-content: center;        
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+
+    .image-container img {
         max-width: 100%;
-        align-items:flex;
-        margin-left: 20%;
-        margin-right: 20%;
+        height: auto;
     }
     .imgTitle{
         height: auto;
